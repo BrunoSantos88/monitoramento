@@ -1,0 +1,10 @@
+commados
+
+
+nginx -v
+
+service nginx status
+
+service nginx restart
+
+service nginx status

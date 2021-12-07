@@ -1,0 +1,7 @@
+sudo apt-get remove prometheus 
+
+$ sudo apt-get remove --auto-remove prometheus 
+
+$ sudo apt-get purge prometheus 
+
+$ sudo apt-get purge --auto-remove prometheus 

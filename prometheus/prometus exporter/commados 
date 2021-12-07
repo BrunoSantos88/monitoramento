@@ -1,0 +1,15 @@
+commados 
+
+
+systemctl status prometheus
+
+restart prometheus using;
+
+killall -HUP prometheus
+sudo systemctl daemon-reload
+sudo systemctl restart prometheus
+
+
+saber url esta up
+
+curl -X POST http://localhost:9090/-/reload

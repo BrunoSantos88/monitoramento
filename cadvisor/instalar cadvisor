@@ -1,0 +1,4 @@
+instalando cadivisor
+
+sudo apt update
+sudo apt install cadvisor -y

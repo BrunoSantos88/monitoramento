@@ -1,0 +1,4 @@
+- job_name: cadvisor
+    static_configs:
+     - targets:
+       - cadvisor:localhost:8080

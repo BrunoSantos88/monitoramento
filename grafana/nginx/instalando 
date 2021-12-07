@@ -1,0 +1,12 @@
+  apt update
+  apt install nginx -y
+  systemctl start nginx
+
+
+  criar pasta sites
+
+  touch /etc/nginx/sites-available/grafana.conf
+
+  arquivo
+  nano grafana.conf
+

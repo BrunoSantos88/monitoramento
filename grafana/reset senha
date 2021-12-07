@@ -1,0 +1,8 @@
+
+resetar senha ambiente docker
+
+docker exec -ti 265059f8820a bash
+
+ grafana-cli admin reset-admin-password "senha"
+
+ https://geraldo.dev/posts/grafana-reset-senha-do-admin/

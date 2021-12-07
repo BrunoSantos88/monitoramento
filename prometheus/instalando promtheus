@@ -1,0 +1,11 @@
+instalar prometheus
+
+sudo apt-get update
+sudo apt-get install prometheus -y
+
+netstat -atunp | grep 9090
+
+
+path pas jobs
+
+nano /etc/prometheus/prometheus.yml

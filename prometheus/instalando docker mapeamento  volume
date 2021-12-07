@@ -1,0 +1,10 @@
+crie pasta 
+
+mkdir prometheus
+cd prometheus
+nano prometheus.ymal
+
+
+docker run -d --name prometheus -p 9090:9090 -v ~/prometheus/:/etc/prometheus:ro prom/prometheus
+
+docker run -d -p 9090:9090 prom/prometheus
